@@ -38,7 +38,7 @@ services:
     image: "penpotapp/frontend:latest"
     restart: always
     ports:
-      - 9001:9001s
+      - 9001:9001
 
     volumes:
       - penpot_assets:/opt/data/assets
